@@ -28,7 +28,5 @@ class BuscaCep:
 
 # Programa
 cep_consulta = input('Insira o cep: ')
-pessoa = BuscaCep(cep_consulta)
-print(pessoa)
-
+print(BuscaCep(cep_consulta))
 
